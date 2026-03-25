@@ -69,10 +69,10 @@ export async function POST(req: NextRequest) {
     const resend = new Resend(resendKey);
 
     await resend.emails.send({
-      from:    `Production Tracker <${fromEmail}>`,
-      to:      contactEmail,
-      replyTo: email || undefined,
-      subject: `🆕 Nuevo lead: ${name} — ${company}`,
+      from:     `Production Tracker <${fromEmail}>`,
+      to:       contactEmail,
+      reply_to: email || undefined,
+      subject:  `🆕 Nuevo lead: ${name} — ${company}`,
       html: `
         <div style="font-family: system-ui, sans-serif; max-width: 560px; margin: 0 auto; padding: 32px;">
           <div style="background: linear-gradient(135deg,#a20513,#c62828); border-radius: 12px; padding: 24px; margin-bottom: 24px;">
