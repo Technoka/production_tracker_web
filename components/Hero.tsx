@@ -107,8 +107,8 @@ export default function Hero() {
             className="relative"
           >
             {/* Main screenshot */}
-<div className="rounded-xl overflow-hidden">
-  <Image src={kanbanGif} alt="Tablero Kanban de Production Tracker" />
+<div className="rounded-xl overflow-hidden w-full">
+  <Image src={kanbanGif} alt="Tablero Kanban de Production Tracker" className="w-full h-auto" />
 </div>
 
 

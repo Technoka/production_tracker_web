@@ -3,7 +3,7 @@
     "cta": "Prueba gratis"
   },
   "hero": {
-    "headline1": "De la pizarra",
+    "headline1": "Del papel",
     "headline2": "a tu móvil.",
     "highlight": "Sin complicaciones.",
     "subheadline": "Gestiona tu producción con un tablero visual que todo tu equipo entiende en minutos. Sin papeles, sin pizarras que se borran, sin caos.",
@@ -15,16 +15,16 @@
     "title": "El día a día de muchos talleres",
     "items": [
       {
-        "title": "La pizarra se borra",
-        "desc": "El operario del turno de noche no sabe en qué punto está cada pieza. Todo el contexto del día, perdido."
+        "title": "Pérdida de tiempo",
+        "desc": "El tiempo se pierde llamando constantemente para comprobar el estado de las órdenes."
       },
       {
         "title": "Los papeles desaparecen",
-        "desc": "Las órdenes en papel acaban debajo de herramientas o simplemente no aparecen. Un caos que cuesta dinero."
+        "desc": "Las órdenes en papel o en pizarra acaban debajo de herramientas o simplemente no aparecen. Un caos que cuesta dinero."
       },
       {
-        "title": "Sin historial, sin control",
-        "desc": "¿Cuánto tardó el último lote? ¿Qué fase causó el retraso? Sin datos no hay mejoras, solo suposiciones."
+        "title": "Sin control",
+        "desc": "¿Cuánto tardó el último lote? ¿Qué causó el retraso? Sin datos no hay mejoras, solo suposiciones."
       }
     ]
   },

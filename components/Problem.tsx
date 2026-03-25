@@ -70,10 +70,10 @@ export default function Problem() {
               </div>
 
               {/* Visual "before" indicator */}
-              <div className="flex items-center gap-2 mt-auto">
-                <span className="material-symbols-outlined text-secondary text-base">warning</span>
-                <span className="text-label-md text-secondary font-semibold">Sin Production Tracker</span>
-              </div>
+              {/* <div className="flex items-center gap-2 mt-auto">
+                <span className="material-symbols-outlined text-secondary text-base">warning</span> */}
+                {/* <span className="text-label-md text-secondary font-semibold">Sin Production Tracker</span> */}
+              {/* </div> */}
             </motion.div>
           ))}
         </motion.div>
