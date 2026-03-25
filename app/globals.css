@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@400,0&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #f9f9f9;
+    color: #1a1c1c;
+  }
+
+  /* DESIGN.md: No pure black for text */
+  h1, h2, h3, h4, h5, h6 {
+    color: #1a1c1c;
+    letter-spacing: -0.02em;
+  }
+
+  /* Selection colors matching brand */
+  ::selection {
+    background-color: #ffdad6;
+    color: #410003;
+  }
+}
+
+/* ── Components ────────────────────────────────────────────────────────────── */
+@layer components {
+  /* DESIGN.md: "The Pulse Gradient" — primary CTA */
+  .pulse-gradient {
+    background: linear-gradient(135deg, #a20513 0%, #c62828 100%);
+  }
+
+  /* DESIGN.md: Primary button */
+  .btn-primary {
+    @apply pulse-gradient text-white font-bold rounded-md
+           transition-all duration-200 active:scale-95
+           hover:shadow-primary;
+  }
+
+  /* DESIGN.md: Secondary button */
+  .btn-secondary {
+    @apply bg-surface-container-highest text-on-surface font-bold rounded-md
+           transition-all duration-200 active:scale-95
+           hover:bg-surface-container-high;
+  }
+
+  /* DESIGN.md: Tertiary / ghost button */
+  .btn-ghost {
+    @apply bg-transparent text-primary font-semibold rounded-md
+           transition-all duration-200 active:scale-95;
+  }
+
+  /* Material Symbols icon */
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+
+  /* DESIGN.md: Progress bar "Flow" — thick, full roundness */
+  .progress-flow {
+    @apply h-3 w-full bg-surface-container-highest rounded-full overflow-hidden;
+  }
+
+  .progress-flow-fill {
+    @apply h-full bg-primary rounded-full transition-all duration-1000;
+  }
+
+  /* Glassmorphism for nav (DESIGN.md: Elevation > Glassmorphism) */
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  /* Ambient shadow for modals (DESIGN.md: Elevation) */
+  .shadow-ambient {
+    box-shadow: 0 20px 40px rgba(26, 28, 28, 0.06);
+  }
+
+  /* DESIGN.md: Input filled style */
+  .input-filled {
+    @apply w-full bg-surface-container-high text-on-surface rounded-md
+           px-4 py-3 text-body-md outline-none border-none
+           transition-all duration-200
+           placeholder:text-on-surface-variant/60;
+  }
+
+  .input-filled:focus {
+    box-shadow: 0 0 0 2px #ffdad6;
+  }
+
+  /* Section label badge */
+  .section-label {
+    @apply inline-block text-primary font-semibold text-label-md
+           bg-primary-fixed px-3 py-1 rounded-full uppercase tracking-wide;
+  }
+}
+
+/* ── Utilities ─────────────────────────────────────────────────────────────── */
+@layer utilities {
+  /* DESIGN.md: "Ghost Border" fallback — outline at 15% opacity */
+  .border-ghost {
+    border: 1px solid rgba(228, 190, 186, 0.15);
+  }
+
+  /* Text tight for headlines */
+  .text-tight {
+    letter-spacing: -0.02em;
+  }
+}
+
+/* ── Custom scrollbar ──────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f3f3f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2e2e2;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8f706c;
+}

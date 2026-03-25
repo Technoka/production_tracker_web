@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "cta": "Start free trial"
+  },
+  "hero": {
+    "headline1": "From whiteboard",
+    "headline2": "to digital.",
+    "highlight": "No complexity.",
+    "subheadline": "Manage your production with a visual board your whole team understands in minutes. No paper, no erased whiteboards, no chaos.",
+    "cta_primary": "Start free — 14 days",
+    "social_proof": "Over 500 workshops already working this way"
+  },
+  "problem": {
+    "label": "Sound familiar?",
+    "title": "The daily reality of many workshops",
+    "items": [
+      {
+        "title": "The whiteboard gets erased",
+        "desc": "The night shift operator doesn't know where each piece stands. All the day's context, gone."
+      },
+      {
+        "title": "Papers disappear",
+        "desc": "Paper orders end up under tools or simply vanish. A chaos that costs real money."
+      },
+      {
+        "title": "No history, no control",
+        "desc": "How long did the last batch take? Which phase caused the delay? Without data, there's no improvement—just guesswork."
+      }
+    ]
+  },
+  "features": {
+    "label": "What's included",
+    "title": "Everything your workshop needs.\nNothing more.",
+    "items": [
+      {
+        "icon": "view_kanban",
+        "title": "Visual Kanban board",
+        "desc": "See the status of every piece at a glance. Drag and drop to update progress. No training needed."
+      },
+      {
+        "icon": "groups",
+        "title": "Easy for your team",
+        "desc": "If they can use a phone, they can use Production Tracker. Real onboarding in under 5 minutes."
+      },
+      {
+        "icon": "history",
+        "title": "Automatic history",
+        "desc": "Every move is saved. Look up the history of any order, any time, from any device."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "The app in action",
+    "title": "Total clarity at every stage.",
+    "desc": "From raw material intake to final delivery. Every piece has its place, every operator knows their task.",
+    "checks": [
+      "Automatic order history",
+      "Real-time delay alerts",
+      "Customizable production phases"
+    ],
+    "placeholder_1": "Main Kanban",
+    "placeholder_2": "Batch view",
+    "placeholder_3": "Order panel",
+    "placeholder_4": "Notifications"
+  },
+  "progress": {
+    "label": "Visual tracking",
+    "title": "Your production status,\nat a glance.",
+    "order_label": "Production Order",
+    "completed": "Completed",
+    "phases": ["Cutting", "Assembly", "Painting", "Packaging"],
+    "desc": "Each phase has its status. Green = done, in progress = animated, pending = waiting."
+  },
+  "social_proof": {
+    "label": "Trusted by",
+    "title": "Workshops already\nworking with clarity.",
+    "stat1_value": "500+",
+    "stat1_label": "Active workshops",
+    "stat2_value": "98%",
+    "stat2_label": "Satisfaction",
+    "stat3_value": "< 5 min",
+    "stat3_label": "To get started",
+    "testimonials": [
+      {
+        "text": "We used to lose orders all the time. Now the whole team knows what to do without me explaining everything every morning.",
+        "name": "Carlos M.",
+        "company": "Metalmec Workshop",
+        "role": "Owner"
+      },
+      {
+        "text": "What I liked most is that my operators learned it by themselves. No training, no manuals. By afternoon, everyone was using it.",
+        "name": "Ana R.",
+        "company": "El Roble Garments",
+        "role": "Production Manager"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to retire your whiteboard?",
+    "desc": "Start your 14-day free trial. No credit card, no commitment.",
+    "badge": "14 days free"
+  },
+  "form": {
+    "title": "Start your free trial",
+    "desc": "We'll call you within 24h to set up your workshop.",
+    "name_label": "Your name",
+    "name_placeholder": "E.g. John Smith",
+    "company_label": "Company or workshop",
+    "company_placeholder": "E.g. Smith Workshop Ltd.",
+    "phone_label": "Phone",
+    "phone_placeholder": "E.g. +1 555 000 0000",
+    "email_label": "Email",
+    "email_optional": "(optional)",
+    "email_placeholder": "E.g. john@workshop.com",
+    "submit": "I want to try it free",
+    "submitting": "Sending...",
+    "success_title": "We'll be in touch soon!",
+    "success_desc": "We've received your details. A team member will contact you within 24 hours to set up your free trial.",
+    "success_cta": "Close",
+    "error_message": "Something went wrong. Please try again.",
+    "required": "This field is required",
+    "phone_invalid": "Please enter a valid phone number",
+    "email_invalid": "Please enter a valid email",
+    "name_min": "Minimum 2 characters",
+    "company_min": "Minimum 2 characters"
+  },
+  "footer": {
+    "tagline": "The tool workshops needed.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "copyright": "© 2024 Production Tracker. All rights reserved."
+  }
+}

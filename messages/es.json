@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "cta": "Prueba gratis"
+  },
+  "hero": {
+    "headline1": "De la pizarra",
+    "headline2": "al digital.",
+    "highlight": "Sin complicaciones.",
+    "subheadline": "Gestiona tu producción con un tablero visual que todo tu equipo entiende en minutos. Sin papeles, sin pizarras que se borran, sin caos.",
+    "cta_primary": "Prueba gratis — 14 días",
+    "social_proof": "Más de 500 talleres ya trabajan así"
+  },
+  "problem": {
+    "label": "¿Te suena familiar?",
+    "title": "El día a día de muchos talleres",
+    "items": [
+      {
+        "title": "La pizarra se borra",
+        "desc": "El operario del turno de noche no sabe en qué punto está cada pieza. Todo el contexto del día, perdido."
+      },
+      {
+        "title": "Los papeles desaparecen",
+        "desc": "Las órdenes en papel acaban debajo de herramientas o simplemente no aparecen. Un caos que cuesta dinero."
+      },
+      {
+        "title": "Sin historial, sin control",
+        "desc": "¿Cuánto tardó el último lote? ¿Qué fase causó el retraso? Sin datos no hay mejoras, solo suposiciones."
+      }
+    ]
+  },
+  "features": {
+    "label": "Qué incluye",
+    "title": "Todo lo que tu taller necesita.\nNada más.",
+    "items": [
+      {
+        "icon": "view_kanban",
+        "title": "Tablero visual Kanban",
+        "desc": "Ve el estado de cada pieza de un vistazo. Arrastra y suelta para actualizar el progreso. Sin aprender nada nuevo."
+      },
+      {
+        "icon": "groups",
+        "title": "Fácil para tu equipo",
+        "desc": "Si saben usar el teléfono, saben usar Production Tracker. Onboarding real en menos de 5 minutos."
+      },
+      {
+        "icon": "history",
+        "title": "Historial automático",
+        "desc": "Cada movimiento queda guardado. Consulta el historial de cualquier orden, en cualquier momento, desde cualquier dispositivo."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "La app en acción",
+    "title": "Claridad total en cada etapa.",
+    "desc": "Desde la entrada del material hasta la entrega final. Cada pieza tiene su lugar, cada operario sabe su tarea.",
+    "checks": [
+      "Historial automático de pedidos",
+      "Alertas de retrasos en tiempo real",
+      "Fases de producción personalizables"
+    ],
+    "placeholder_1": "Kanban principal",
+    "placeholder_2": "Vista de lote",
+    "placeholder_3": "Panel de pedido",
+    "placeholder_4": "Notificaciones"
+  },
+  "progress": {
+    "label": "Seguimiento visual",
+    "title": "El estado de tu producción,\nde un vistazo.",
+    "order_label": "Orden de Producción",
+    "completed": "Completado",
+    "phases": ["Corte", "Ensamble", "Pintura", "Empaque"],
+    "desc": "Cada fase tiene su estado. Verde = terminado, en curso = animado, pendiente = esperando."
+  },
+  "social_proof": {
+    "label": "Confianza",
+    "title": "Talleres que ya trabajan\ncon claridad.",
+    "stat1_value": "500+",
+    "stat1_label": "Talleres activos",
+    "stat2_value": "98%",
+    "stat2_label": "Satisfacción",
+    "stat3_value": "< 5 min",
+    "stat3_label": "Para empezar",
+    "testimonials": [
+      {
+        "text": "Antes perdíamos órdenes constantemente. Ahora todo el equipo sabe qué hacer sin que yo tenga que explicar nada cada mañana.",
+        "name": "Carlos M.",
+        "company": "Taller Metalmec",
+        "role": "Propietario"
+      },
+      {
+        "text": "Lo que más me gustó fue que mis operarios lo aprendieron solos. Sin formación, sin manuales. En una tarde ya lo usaban todos.",
+        "name": "Ana R.",
+        "company": "Confecciones El Roble",
+        "role": "Jefa de producción"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jubilar tu pizarra?",
+    "desc": "Empieza tu prueba gratuita de 14 días. Sin tarjeta de crédito, sin compromisos.",
+    "badge": "14 días gratis"
+  },
+  "form": {
+    "title": "Empieza tu prueba gratuita",
+    "desc": "Te llamamos en menos de 24h para configurar tu taller.",
+    "name_label": "Tu nombre",
+    "name_placeholder": "Ej: Juan García",
+    "company_label": "Empresa o taller",
+    "company_placeholder": "Ej: Taller García S.L.",
+    "phone_label": "Teléfono",
+    "phone_placeholder": "Ej: +34 600 000 000",
+    "email_label": "Email",
+    "email_optional": "(opcional)",
+    "email_placeholder": "Ej: juan@taller.com",
+    "submit": "Quiero probar gratis",
+    "submitting": "Enviando...",
+    "success_title": "¡Perfecto, te llamamos pronto!",
+    "success_desc": "Hemos recibido tus datos. Un miembro del equipo te contactará en menos de 24 horas para configurar tu prueba gratuita.",
+    "success_cta": "Cerrar",
+    "error_message": "Algo salió mal. Por favor inténtalo de nuevo.",
+    "required": "Campo obligatorio",
+    "phone_invalid": "Introduce un teléfono válido",
+    "email_invalid": "Introduce un email válido",
+    "name_min": "Mínimo 2 caracteres",
+    "company_min": "Mínimo 2 caracteres"
+  },
+  "footer": {
+    "tagline": "La herramienta que los talleres necesitaban.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "contact": "Contacto",
+    "copyright": "© 2024 Production Tracker. Todos los derechos reservados."
+  }
+}
