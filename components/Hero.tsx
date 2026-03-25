@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { useModal } from '@/context/ModalContext';
 import PlaceholderMedia from './ui/PlaceholderMedia';
+import Image from 'next/image';
+import kanbanGif from '@/public/screenshots/kanban_web.png';
 import {
   fadeInUp,
   slideInRight,
@@ -38,7 +40,7 @@ export default function Hero() {
             animate="visible"
             className="flex flex-col gap-7"
           >
-            {/* Social proof badge */}
+            {/* Social proof badge
             <motion.div variants={fadeInUp}>
               <span className="section-label">
                 <span className="material-symbols-outlined text-primary text-sm align-middle mr-1">
@@ -46,7 +48,7 @@ export default function Hero() {
                 </span>
                 {t('hero.social_proof')}
               </span>
-            </motion.div>
+            </motion.div> */}
 
             {/* Headline */}
             <motion.h1
@@ -79,7 +81,7 @@ export default function Hero() {
             </motion.div>
 
             {/* Trust signals */}
-            <motion.div
+            {/* <motion.div
               variants={fadeInUp}
               className="flex flex-wrap items-center gap-x-6 gap-y-2 text-label-md text-on-surface-variant"
             >
@@ -93,7 +95,7 @@ export default function Hero() {
                   {text}
                 </span>
               ))}
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           {/* ── Right: App screenshot ───────────────────────────────────── */}
@@ -105,55 +107,11 @@ export default function Hero() {
             className="relative"
           >
             {/* Main screenshot */}
-            <div className="relative rounded-2xl overflow-hidden shadow-ambient">
-              <PlaceholderMedia
-                label="Tablero Kanban principal — reemplazar con GIF real"
-                aspectRatio="video"
-              />
-            </div>
+<div className="rounded-xl overflow-hidden">
+  <Image src={kanbanGif} alt="Tablero Kanban de Production Tracker" />
+</div>
 
-            {/* Floating mini card — top left */}
-            <motion.div
-              initial={{ opacity: 0, x: -16, y: 8 }}
-              animate={{ opacity: 1, x: 0, y: 0 }}
-              transition={{ delay: 0.5, duration: 0.5 }}
-              className="
-                absolute -left-4 top-8
-                bg-surface-container-lowest rounded-xl
-                px-4 py-3 shadow-ambient
-                flex items-center gap-3
-                hidden md:flex
-              "
-            >
-              <div className="w-9 h-9 rounded-xl bg-primary-fixed flex items-center justify-center flex-shrink-0">
-                <span className="material-symbols-outlined text-primary text-lg">task_alt</span>
-              </div>
-              <div>
-                <p className="text-xs font-bold text-on-surface">Lote #1042 listo</p>
-                <p className="text-xs text-on-surface-variant">Hace 2 minutos</p>
-              </div>
-            </motion.div>
 
-            {/* Floating mini card — bottom right */}
-            <motion.div
-              initial={{ opacity: 0, x: 16, y: 8 }}
-              animate={{ opacity: 1, x: 0, y: 0 }}
-              transition={{ delay: 0.65, duration: 0.5 }}
-              className="
-                absolute -right-4 bottom-8
-                bg-surface-container-lowest rounded-xl
-                px-4 py-3 shadow-ambient
-                hidden md:block
-              "
-            >
-              <p className="text-xs text-on-surface-variant mb-1.5">Progreso hoy</p>
-              <div className="flex items-center gap-2">
-                <div className="progress-flow w-28">
-                  <div className="progress-flow-fill" style={{ width: '72%' }} />
-                </div>
-                <span className="text-xs font-bold text-primary">72%</span>
-              </div>
-            </motion.div>
           </motion.div>
 
         </div>

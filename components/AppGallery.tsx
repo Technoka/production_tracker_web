@@ -1,11 +1,10 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import PlaceholderMedia from './ui/PlaceholderMedia';
 import {
   fadeInUp,
-  slideInRight,
   stagger,
   staggerLong,
   viewport,
@@ -27,37 +26,33 @@ export default function AppGallery() {
             initial="hidden"
             whileInView="visible"
             viewport={viewport}
-            className="grid grid-cols-2 gap-4 order-2 lg:order-1"
+            className="grid grid-cols-2 gap-3 order-2 lg:order-1 max-w-xs mx-auto lg:mx-0 lg:max-w-sm"
           >
             {/* Col 1 — offset downwards */}
             <div className="flex flex-col gap-4 pt-10">
               <motion.div variants={fadeInUp}>
-                <PlaceholderMedia
-                  label={t('gallery.placeholder_1')}
-                  aspectRatio="portrait"
-                />
+                <div className="relative w-full aspect-[9/16] rounded-xl overflow-hidden shadow-md bg-surface-container">
+                  <Image src="/screenshots/inicio.jpeg" alt="Inicio" fill className="object-contain" />
+                </div>
               </motion.div>
               <motion.div variants={fadeInUp}>
-                <PlaceholderMedia
-                  label={t('gallery.placeholder_2')}
-                  aspectRatio="square"
-                />
+                <div className="relative w-full aspect-[9/16] rounded-xl overflow-hidden shadow-md bg-surface-container">
+                  <Image src="/screenshots/kanban2.jpeg" alt="Kanban" fill className="object-contain" />
+                </div>
               </motion.div>
             </div>
 
             {/* Col 2 */}
             <div className="flex flex-col gap-4">
               <motion.div variants={fadeInUp}>
-                <PlaceholderMedia
-                  label={t('gallery.placeholder_3')}
-                  aspectRatio="square"
-                />
+                <div className="relative w-full aspect-[9/16] rounded-xl overflow-hidden shadow-md bg-surface-container">
+                  <Image src="/screenshots/lotes.jpeg" alt="Lotes" fill className="object-contain" />
+                </div>
               </motion.div>
               <motion.div variants={fadeInUp}>
-                <PlaceholderMedia
-                  label={t('gallery.placeholder_4')}
-                  aspectRatio="portrait"
-                />
+                <div className="relative w-full aspect-[9/16] rounded-xl overflow-hidden shadow-md bg-surface-container">
+                  <Image src="/screenshots/clientes.jpeg" alt="Clientes" fill className="object-contain" />
+                </div>
               </motion.div>
             </div>
           </motion.div>

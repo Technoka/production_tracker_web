@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
@@ -50,10 +51,14 @@ export default function Navbar() {
           aria-label="Production Tracker — Home"
         >
           {/* Brand mark */}
-          <div className="w-8 h-8 rounded-lg pulse-gradient flex items-center justify-center">
-            <span className="material-symbols-outlined text-white text-base">
-              view_kanban
-            </span>
+          <div className="w-8 h-8 rounded-lg overflow-hidden flex-shrink-0">
+            <Image
+              src="/screenshots/app_icon.png"
+              alt="Production Tracker"
+              width={32}
+              height={32}
+              className="w-full h-full object-cover"
+            />
           </div>
           <span className="font-black text-base tracking-tight text-on-surface hidden sm:block">
             Production<span className="text-primary"> Tracker</span>

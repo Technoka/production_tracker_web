@@ -21,8 +21,8 @@ export async function generateMetadata({
       ? 'Production Tracker — Gestión de producción para talleres'
       : 'Production Tracker — Workshop production management',
     description: isEs
-      ? 'Sustituye tu pizarra por un tablero digital visual. Prueba gratis 14 días.'
-      : 'Replace your whiteboard with a visual digital board. Free 14-day trial.',
+      ? 'Sustituye tu pizarra por un tablero digital visual. Prueba gratis sin compromiso.'
+      : 'Replace your whiteboard with a visual digital board. Free trial now.',
     alternates: {
       canonical: `${siteUrl}/${locale}`,
       languages: {

@@ -7,7 +7,7 @@
     "headline2": "to digital.",
     "highlight": "No complexity.",
     "subheadline": "Manage your production with a visual board your whole team understands in minutes. No paper, no erased whiteboards, no chaos.",
-    "cta_primary": "Start free — 14 days",
+    "cta_primary": "Start free",
     "social_proof": "Over 500 workshops already working this way"
   },
   "problem": {
@@ -34,7 +34,7 @@
     "items": [
       {
         "icon": "view_kanban",
-        "title": "Visual Kanban board",
+        "title": "Visual board",
         "desc": "See the status of every piece at a glance. Drag and drop to update progress. No training needed."
       },
       {
@@ -97,8 +97,8 @@
   },
   "cta": {
     "title": "Ready to retire your whiteboard?",
-    "desc": "Start your 14-day free trial. No credit card, no commitment.",
-    "badge": "14 days free"
+    "desc": "Start your free trial. No credit card, no commitment.",
+    "badge": "Free trial now"
   },
   "form": {
     "title": "Start your free trial",
@@ -129,6 +129,6 @@
     "privacy": "Privacy",
     "terms": "Terms",
     "contact": "Contact",
-    "copyright": "© 2024 Production Tracker. All rights reserved."
+    "copyright": "© 2026 Production Tracker. All rights reserved."
   }
 }

@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+
 
 export default function Footer() {
   const t = useTranslations();
@@ -11,9 +13,15 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
-              <div className="w-7 h-7 rounded-lg pulse-gradient flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-sm">view_kanban</span>
-              </div>
+          <div className="w-8 h-8 rounded-lg overflow-hidden flex-shrink-0">
+            <Image
+              src="/screenshots/app_icon.png"
+              alt="Production Tracker"
+              width={32}
+              height={32}
+              className="w-full h-full object-cover"
+            />
+          </div>
               <span className="font-black text-base tracking-tight text-on-surface">
                 Production<span className="text-primary"> Tracker</span>
               </span>

@@ -61,7 +61,7 @@ export default function CtaSection() {
               </motion.p>
 
               {/* Mini checklist */}
-              <motion.ul variants={stagger} className="flex flex-col gap-2 mt-2">
+              {/* <motion.ul variants={stagger} className="flex flex-col gap-2 mt-2">
                 {[
                   'Sin tarjeta de crédito',
                   'Configuración en 15 minutos',
@@ -78,7 +78,7 @@ export default function CtaSection() {
                     <span className="text-body-md">{item}</span>
                   </motion.li>
                 ))}
-              </motion.ul>
+              </motion.ul> */}
             </motion.div>
 
             {/* ── Right: Inline form ────────────────────────────────── */}

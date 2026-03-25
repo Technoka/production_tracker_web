@@ -4,10 +4,10 @@
   },
   "hero": {
     "headline1": "De la pizarra",
-    "headline2": "al digital.",
+    "headline2": "a tu móvil.",
     "highlight": "Sin complicaciones.",
     "subheadline": "Gestiona tu producción con un tablero visual que todo tu equipo entiende en minutos. Sin papeles, sin pizarras que se borran, sin caos.",
-    "cta_primary": "Prueba gratis — 14 días",
+    "cta_primary": "Prueba gratis sin compromiso de nada",
     "social_proof": "Más de 500 talleres ya trabajan así"
   },
   "problem": {
@@ -34,12 +34,12 @@
     "items": [
       {
         "icon": "view_kanban",
-        "title": "Tablero visual Kanban",
+        "title": "Tablero visual",
         "desc": "Ve el estado de cada pieza de un vistazo. Arrastra y suelta para actualizar el progreso. Sin aprender nada nuevo."
       },
       {
         "icon": "groups",
-        "title": "Fácil para tu equipo",
+        "title": "Fácil e intuitivo",
         "desc": "Si saben usar el teléfono, saben usar Production Tracker. Onboarding real en menos de 5 minutos."
       },
       {
@@ -97,8 +97,8 @@
   },
   "cta": {
     "title": "¿Listo para jubilar tu pizarra?",
-    "desc": "Empieza tu prueba gratuita de 14 días. Sin tarjeta de crédito, sin compromisos.",
-    "badge": "14 días gratis"
+    "desc": "Lo pruebas gratis y punto. Si te sirve, genial. Sino, no pasa nada.",
+    "badge": "Prueba gratis sin compromiso de nada"
   },
   "form": {
     "title": "Empieza tu prueba gratuita",
@@ -129,6 +129,6 @@
     "privacy": "Privacidad",
     "terms": "Términos",
     "contact": "Contacto",
-    "copyright": "© 2024 Production Tracker. Todos los derechos reservados."
+    "copyright": "© 2026 Production Tracker. Todos los derechos reservados."
   }
 }

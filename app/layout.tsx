@@ -7,7 +7,7 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 export const metadata: Metadata = {
   title: 'Production Tracker — Gestión de producción para talleres',
   description:
-    'Sustituye tu pizarra por un tablero digital visual. Controla el estado de cada pieza, lote y pedido en tiempo real. Prueba gratis 14 días.',
+    'Sustituye tu pizarra por un tablero digital visual. Controla el estado de cada pieza, lote y pedido en tiempo real. Prueba gratis.',
   keywords: [
     'gestión de producción',
     'taller',
@@ -16,9 +16,13 @@ export const metadata: Metadata = {
     'small workshop management',
     'production tracking',
   ],
+  icons: {
+    icon: '/screenshots/app_icon.png',
+    apple: '/screenshots/app_icon.png',
+  },
   openGraph: {
     title: 'Production Tracker',
-    description: 'De la pizarra al digital. Sin complicaciones.',
+    description: 'De la pizarra a tu móvil. Sin complicaciones.',
     type: 'website',
   },
 };

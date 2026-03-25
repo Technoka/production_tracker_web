@@ -33,10 +33,10 @@ export default function LandingPage() {
         <AppGallery />
 
         {/* 5. Progress Demo — interactive kanban demo */}
-        <ProgressDemo />
+        {/* <ProgressDemo /> */}
 
         {/* 6. Social Proof — stats + testimonials */}
-        <SocialProof />
+        {/* <SocialProof /> */}
 
         {/* 7. CTA final — red gradient + inline form */}
         <CtaSection />
