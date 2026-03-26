@@ -31,7 +31,7 @@ export default function Hero() {
       />
 
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-4 items-center">
 
           {/* ── Left: Copy ─────────────────────────────────────────────── */}
           <motion.div
