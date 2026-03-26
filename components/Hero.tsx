@@ -53,7 +53,7 @@ export default function Hero() {
             {/* Headline */}
             <motion.h1
               variants={fadeInUp}
-              className="text-5xl md:text-6xl xl:text-7xl font-black tracking-tighter leading-[0.9] text-on-surface"
+              className="text-4xl md:text-5xl xl:text-6xl font-black tracking-tighter leading-[0.9] text-on-surface"
             >
               {t('hero.headline1')}{' '}
               {t('hero.headline2')}
