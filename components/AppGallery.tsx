@@ -26,7 +26,7 @@ export default function AppGallery() {
             initial="hidden"
             whileInView="visible"
             viewport={viewport}
-            className="grid grid-cols-2 gap-3 order-2 lg:order-1 max-w-xs mx-auto lg:mx-0 lg:max-w-sm"
+            className="grid grid-cols-2 gap-3 order-2 lg:order-1 w-full lg:max-w-sm"
           >
             {/* Col 1 — offset downwards */}
             <div className="flex flex-col gap-4 pt-10">
